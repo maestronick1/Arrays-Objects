@@ -69,20 +69,83 @@
 //         // console.log(myReallyCoolPost);
 
     }
-// IG post
-    const nickInstagramPage= {
-        username: '@nickphillipsmusic',
-        likes: 300,
-        comments ['great music', 'beautiful', 'more please'],
-        caption: 'todays jam',
-        picture; "https://instagram.com/nickphillips",
+// // IG post
+//     const nickInstagramPage= {
+//         username: '@nickphillipsmusic',
+//         likes: 300,
+//         comments ['great music', 'beautiful', 'more please'],
+//         caption: 'todays jam',
+//         picture; "https://instagram.com/nickphillips",
  
-        console.log(myReallyCoolPost);
-        nickInstagramPage.location = 'SF';
-        console.log(nickInstagramPage);
+//         console.log(myReallyCoolPost);
+//         nickInstagramPage.location = 'SF';
+//         console.log(nickInstagramPage);
+
+
+
+function sayHello()
+//write my code
+//write yourlogic
+console.log('hello')
+
+
+sayHello();
+
+sayHello();
+
+//function expression
+const sayHelloAgain = function() {
+    console.log('Hello Again');
+};
+
+sayHelloAgain();
+
+// aroow funtion
+
+const sayHelloAgain = () => {
+    console.log('Hello for the last time');
+}
+
+sayHelloFinal();
+const numbers = [1, 2, 3, 4, 5, 6, 7,8, 9];
+cont otherNumbers= [12, 20, 30, 40, 50, 60, 70, 80, 90];
+
+function prinNumbers(numbers)  {
+  for(let i = 0; i < Array.length; i++) {
+   let num = array [i]
+   
+   if (num < 50) {
+       console.log( "this number is less than 50: " = num) // this number is less than 50
+
+   }else {
+       console.log( "This nuber is ghreat than 50: " + num)
+  }
+}
+
+// printNumbers(numbers);
+prinNumbers(otherNumbers);
+
+cont numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+function addNumbers(array) {
+    let result = 0;
+    
+    for(let i = 0; i <array.length; i++) {
+    let num = array[i] // 1, 2, 3, 4, 5, 6, 7, 8, 9
+    
+    result += num; // 1, 3, 6, 10, 15, 21, 28, 36, 45
+    
+    return result;
+
+
+}
+let myResult = addNumbers (numbers);
+console.log(addNumbers(numbers));
+
+
+
         
 
-    }
 
 
 

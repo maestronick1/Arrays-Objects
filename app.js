@@ -40,6 +40,15 @@ while (myOtherNumber < numberTwo) {
 for (var i = 0; i < 10; i ++ 0{
     var eachTeam = team [i];
     console.log(eachTeam);
+
+    // Make an array
+    // Use a for loop to iterarte through you array
+    // print each element in you array
+
+
+
+
+
 }
 
 
